@@ -52,15 +52,6 @@ This project is purely theoretical and for educational purposes only. The models
 - **Fixed Regime Count**: The system assumes a fixed number of regimes (3) and instant switches, which may not reflect real-world execution lags.
 - **Omitted Fractionally-Differentiated Features**: The model does not include fractionally-differentiated features that could retain price memory without stationarity loss.
 - **Time-Series Leakage Prevention**: Vanilla cross-validation is used instead of purged/embargoed k-fold to prevent time-series leakage.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies.
-3. Run the provided scripts to replicate the results.
-
-### Cloning the Repository
-
 ```bash
+git clone https://github.com/yourusername/financial-market-analysis-system.git
+cd financial-market-analysis-system
